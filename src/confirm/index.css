@@ -4,7 +4,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #ccc;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .box{
     position: fixed;
@@ -30,10 +30,12 @@
 .box_tip{
     color: #000;
     padding: 10px;
+    background-color: #118885;
+    color: #fff;
+}
+.box_content{
+    padding: 10px;
 }
 .confirm{
-
-}
-.cancel{
     border-right: 1px solid #fff;
 }
